@@ -14,7 +14,7 @@ from langchain_core.messages import AIMessage, ToolMessage
 from langchain_core.tools import tool
 from langchain_groq import ChatGroq
 
-from database import close_checkpointer, get_checkpointer
+from api.database import close_checkpointer, get_checkpointer
 
 
 _SAFE_OPS = {

@@ -28,8 +28,8 @@ Use a Supabase **session pooler** URI (port `5432`) when possible.
 npm install
 pip install -r api/requirements.txt
 
-# terminal 1
-cd api && uvicorn index:app --reload --port 8000
+# terminal 1 (from repository root)
+uvicorn api.index:app --reload --host 127.0.0.1 --port 8000
 
 # terminal 2
 PYTHON_API_URL=http://127.0.0.1:8000 npm run dev

@@ -11,7 +11,7 @@ from fastapi.responses import StreamingResponse
 from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
 from pydantic import BaseModel, Field
 
-from agent import (
+from api.agent import (
     NODE_STATUS,
     describe_tool_calls,
     describe_tool_result,
@@ -20,7 +20,7 @@ from agent import (
     reset_compiled_graph,
     should_emit_token,
 )
-from database import DatabaseConfigError, is_connection_error
+from api.database import DatabaseConfigError, is_connection_error
 
 app = FastAPI(title="Rabia Agent API", version="1.0.0")
 
