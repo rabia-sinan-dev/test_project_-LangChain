@@ -1,0 +1,11 @@
+fastapi
+langgraph
+langgraph-checkpoint-postgres
+langchain
+langchain-groq
+langchain-core
+deepagents
+supabase
+psycopg[binary,pool]
+pydantic
+uvicorn
