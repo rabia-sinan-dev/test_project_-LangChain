@@ -16,7 +16,7 @@ Streaming chat app with a LangChain Deep Agents backend, Groq, and Supabase chec
 
 ```bash
 GROQ_API_KEY=
-GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_MODEL=openai/gpt-oss-20b
 DATABASE_URL=
 ```
 
